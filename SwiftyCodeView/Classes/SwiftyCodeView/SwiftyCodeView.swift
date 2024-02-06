@@ -56,7 +56,7 @@ open class SwiftyCodeView: UIControl {
 //		addGestureRecognizer(tap)
 	}
 
-	open class func setupUI() {
+    func setupUI() {
 		stackView.frame = self.bounds
 		if stackView.superview == nil {
 			addSubview(stackView)
