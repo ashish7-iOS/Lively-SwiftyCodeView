@@ -50,13 +50,13 @@ open class SwiftyCodeView: UIControl {
 
 	override open func awakeFromNib() {
 		super.awakeFromNib()
-		setupUI()
-
-		let tap = UITapGestureRecognizer(target: self, action: #selector(becomeFirstResponder))
-		addGestureRecognizer(tap)
+//		setupUI()
+//
+//		let tap = UITapGestureRecognizer(target: self, action: #selector(becomeFirstResponder))
+//		addGestureRecognizer(tap)
 	}
 
-	fileprivate func setupUI() {
+	open class func setupUI() {
 		stackView.frame = self.bounds
 		if stackView.superview == nil {
 			addSubview(stackView)
