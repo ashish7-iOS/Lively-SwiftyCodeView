@@ -47,3 +47,6 @@ playground.xcworkspace
 *.pkey
 screenshots
 rvm.env
+
+.swiftpm/
+SwiftyCodeViewDemo/SwiftyCodeViewDemo.xcodeproj/project.xcworkspace/xcshareddata/
